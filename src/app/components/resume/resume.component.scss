@@ -1,0 +1,22 @@
+.resume{
+  text-align: center;
+
+  p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 15px;
+  }
+
+  a {
+    color: #a1bcf8;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #29344b
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: #1a49b0;
+  }
+}
