@@ -4,6 +4,7 @@
   "homepage": "https://gowthamr78.github.io/Portfolio",
   "scripts": {
     "deploy": "ng build --configuration production --base-href 'https://gowthamr78.github.io/Portfolio/' && npx angular-cli-ghpages --dir=dist/portfolio",
+    "postbuild": "copy dist/portfolio/index.html dist/portfolio/404.html",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
